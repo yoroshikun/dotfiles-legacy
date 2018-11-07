@@ -1,0 +1,12 @@
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = vscode
+[user]
+  name = Drew Hutton
+  email = dragoz2308@gmail.com
+  username = yoroshikun
+[color]
+  ui = true
+[push]
+  default = simple
+

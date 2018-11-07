@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# enable Key Repeat
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+
+# increase Key repeat speed
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+# enable hidden files
+
+defaults write com.apple.Finder AppleShowAllFiles true
+
+# show the ~/Library folder
+chflags nohidden ~/Library
