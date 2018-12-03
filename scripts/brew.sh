@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # taps
-brew tap fisherman/tap
 brew tap caskroom/cask
 
 # install gnu formulas
@@ -35,11 +34,11 @@ brew install nano
 # other formulas
 brew install direnv
 brew install ffmpeg
-brew install fish
-brew install fisherman
+brew install fish --HEAD
 brew install flake
 brew install fzf
 brew install git
+brew install gpg
 brew install less
 brew install neovim
 brew install node

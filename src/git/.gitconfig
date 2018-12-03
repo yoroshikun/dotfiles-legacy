@@ -1,6 +1,6 @@
 [core]
   excludesfile = ~/.gitignore_global
-	editor = visual-studio-code
+	editor = vim
 [user]
 	name = Drew Hutton
 	email = drew.business2308@gmail.com
@@ -10,3 +10,7 @@
 [push]
   default = simple
 
+[alias]
+	statsu = status
+  pushUp = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+  push-with-lease = push --force-with-lease
