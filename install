@@ -6,6 +6,7 @@ end='\e[0m'
 bld='\e[1m'
 dim='\e[2m'
 
+printf "${bld}Note:${end} ${dim} The installation of these dotfiles may take an extended period of time, expecially when installing brew and brew cask jobs"
 printf "install dotfiles? ${bld}[y/n]${end} ${red}>>${end} "
 
 while true; do
@@ -32,10 +33,15 @@ source './scripts/osx-defaults'
 
 source './scripts/vscode-package-install'
 
+source './scripts/fish-install.sh'
+
+source './scripts/asdf-install.sh'
+
 for pkg in `ls src`; do
   (cd src && stow --target=$HOME $pkg)
   printf "${dim}[link]${end} $pkg\n"
 done
 
-printf "${mag}[done]${end} 🍙"
+printf "${mag}[done]${end} | you might want to restart your computer"
+printf "${dim} If not already remember to set fish as your default console${end}"
 

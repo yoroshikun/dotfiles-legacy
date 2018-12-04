@@ -2,26 +2,30 @@
 
 # install common extensions
 
-code --install-extension --force aaron-bond.better-comments
-code --install-extension --force cssho.vscode-svgviewer
-code --install-extension --force dbaeumer.vscode-eslint
-code --install-extension --force dunstontc.dark-plus-syntax
-code --install-extension --force eamodio.gitlens
-code --install-extension --force esbenp.prettier-vscode
-code --install-extension --force formulahendry.auto-close-tag
-code --install-extension --force formulahendry.terminal
-code --install-extension --force liviuschera.noctis
-code --install-extension --force mariusschulz.yarn-lock-syntax
-code --install-extension --force octref.vetur
-code --install-extension --force PKief.material-icon-theme
-code --install-extension --force robertohuertasm.vscode-icons
-code --install-extension --force shalldie.background
-code --install-extension --force vincaslt.highlight-matching-tag
-code --install-extension --force vsmobile.vscode-react-native
-code --install-extension --force wix.vscode-import-cost
-code --install-extension --force xabikos.JavaScriptSnippets
-code --install-extension --force msjsdiag.debugger-for-chrome
-code --install-extension --force christian-kohler.npm-intellisense
+code --install-extension aaron-bond.better-comments
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension cssho.vscode-svgviewer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dunstontc.dark-plus-syntax
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.terminal
+code --install-extension liviuschera.noctis
+code --install-extension mariusschulz.yarn-lock-syntax
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension octref.vetur
+code --install-extension PKief.material-icon-theme
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension shalldie.background
+code --install-extension vincaslt.highlight-matching-tag
+code --install-extension vsmobile.vscode-react-native
+code --install-extension wix.vscode-import-cost
+code --install-extension xabikos.JavaScriptSnippets
+code --install-extention burkeholland.simple-react-snippets
+code --install-extention flowtype.flow-for-vscode
+code --install-extention jpoissonnier.vscode-styled-components
+code --install-extention tyriar.sort-lines
 
 # fix the font
 rm ~/library/fonts/FiraCode-Bold.otf
