@@ -25,19 +25,45 @@
   "files.useExperimentalFileWatcher": true,
   "workbench.startupEditor": "none",
   "workbench.fontAliasing": "auto",
-  "workbench.tree.horizontalScrolling": true,
   "editor.fontSize": 13,
   "window.restoreFullscreen": true,
   "terminal.external.osxExec": "iTerm.app",
   "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "prettier.singleQuote": true,
   "background.enabled": false,
-  "prettier.semi": false,
   "editor.formatOnSave": true,
   "explorer.confirmDelete": false,
-  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
   "window.zoomLevel": 0,
   "diffEditor.ignoreTrimWhitespace": true,
   "javascript.validate.enable": false,
-  "workbench.colorTheme": "dark-plus-syntax"
+  "workbench.colorTheme": "Over Night Owl",
+  "flow.useNPMPackagedFlow": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.trailingComma": "all",
+  "breadcrumbs.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "[Over Night Owl]": {
+      "textMateRules": [
+        {
+          "scope": "constant.language.boolean",
+          "settings": {
+            "foreground": "#e22dbe"
+          }
+        }
+      ]
+    }
+  },
+  "pgFormatter.keywordCase": "lowercase",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "mjml.lintEnable": false,
+  "mjml.lintWhenTyping": false,
+  "mjml.minifyHtmlOutput": false,
+  "eslint.alwaysShowStatus": true
 }
