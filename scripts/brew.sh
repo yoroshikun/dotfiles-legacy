@@ -52,4 +52,6 @@ brew install thefuck
 brew install tmux
 brew install vim --with-override-system-vi --with-python3
 brew install yarn
-brew install z
+brew install starship
+brew install skaffold
+brew install minikube

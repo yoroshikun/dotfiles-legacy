@@ -23,3 +23,4 @@ brew cask install mpv
 brew cask install slack
 brew cask install spectacle
 brew cask install visual-studio-code
+brew cask install kitty

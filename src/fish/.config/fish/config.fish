@@ -31,7 +31,7 @@ set GOROOT (brew --prefix golang)/libexec
 set PATH $GOPATH/bin:$GOROOT/bin $PATH
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/mango/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/Users/mango/Downloads/google-cloud-sdk/path.fish.inc'; end
+if [ -f '/Users/$USER/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/Users/$USER/Downloads/google-cloud-sdk/path.fish.inc'; end
 
 # Set the emoji width for iTerm
 set -g fish_emoji_width 2
